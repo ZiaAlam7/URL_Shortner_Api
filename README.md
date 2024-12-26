@@ -2,7 +2,7 @@
 
 This is a solution to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-#### Check Out My Solution [Here]()
+#### Check Out My Solution [Here](https://url-shortner-aqdaojnvf-zia-alams-projects.vercel.app/)
 
 ## Table of contents
 
@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/ZiaAlam7/URL_Shortner_Api)
+- Live Site URL: [Add live site URL here](https://url-shortner-aqdaojnvf-zia-alams-projects.vercel.app/)
 
 ## My process
 
@@ -59,5 +59,5 @@ The API Provided By Frontend Mentor Had Cors Issue Due To Which I Created A Back
 ## Author
 
 - Frontend Mentor - [@ZiaAlam7](https://www.frontendmentor.io/profile/ZiaAlam7)
-- LinkedIn - [@yourusername](https://www.linkedin.com/in/zia-alam-102572227/)
+- LinkedIn - [Zia Alam](https://www.linkedin.com/in/zia-alam-102572227/)
 
