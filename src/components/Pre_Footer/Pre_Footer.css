@@ -1,0 +1,38 @@
+.pre_footer{
+    height: 35vh;
+    background-image: url(../../../images/bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark_violet);
+    width: 100vw;
+    
+}
+
+.pre_footer > h2{
+    font-size: 2.6rem;
+    color: white;
+    letter-spacing: -0.5px;
+}
+
+.pre_footer > button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.9rem;
+    width: 13rem;
+    border: 0px;
+    border-radius: 5rem;
+    color: white;
+    background-color: var(--main_Cyan);
+    cursor: pointer;
+    margin-top: 1.3rem;
+}
+
+.pre_footer > button:hover, button:active{
+    background-color: var(--light_Cyan);
+}

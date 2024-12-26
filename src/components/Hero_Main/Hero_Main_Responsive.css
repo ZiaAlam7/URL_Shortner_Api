@@ -1,0 +1,43 @@
+@media (max-width: 1000px) {
+
+
+.search_box {
+ flex-direction: column;
+ padding: 1.3rem;
+ width:88%;
+ background-image: url('../../../images/bg-shorten-mobile.svg');
+ background-size: 19rem;
+ background-position: 5rem -2.5rem;
+}
+.search_input{
+    flex-direction: column;
+
+    gap: 0.5rem;
+}
+
+.search_input > button{
+   width: 100%;
+}
+
+.search_input > p {
+    display: block;
+    margin-top: 0rem;
+    width: 100%;
+}
+
+.search_box > p {
+    display: none;
+}
+
+.search_box > input {
+    height: 75%;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.search_box > button{
+    font-size: 1rem;
+}
+
+
+}

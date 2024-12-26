@@ -1,0 +1,18 @@
+body {
+    color: black;
+}
+
+.attribution {
+    display: flex;
+justify-content: center;
+gap: 1rem;
+font-size: 12px;
+background-color: var(--very_dark_violet);
+color: white;
+}
+
+.attribution  a {
+    color: var(--main_Cyan);
+    text-decoration: none;
+}
+

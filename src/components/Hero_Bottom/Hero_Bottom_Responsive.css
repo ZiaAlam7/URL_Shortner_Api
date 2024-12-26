@@ -1,0 +1,64 @@
+@media (max-width: 1000px) {
+    .hero_bottom_content {
+        width: 100%;
+        margin-bottom: 11rem;
+
+    }
+
+    .hero_bottom_txt {
+        margin-bottom: 4rem;
+    }
+
+    .hero_bottom_txt>h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero_bottom_txt>p {
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    .cards {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 6rem;
+    }
+
+    .card {
+        position: relative;
+        width: 90%;
+        margin: 0rem auto;
+        text-align: center;
+        /* height: 17.3rem; */
+    }
+
+    .card>.img {
+        left: 39%;
+    }
+
+    .card p {
+        font-size: 1.25rem;
+    }
+
+
+
+    .card_2 {
+        left: 0;
+        /* top: 0; */
+    }
+
+
+    .blue_line {
+        position: absolute;
+        top: 0;
+        left: 50.3%;
+        background-color: var(--main_Cyan);
+        width: 0.6rem;
+        height: 100%;
+    }
+
+}

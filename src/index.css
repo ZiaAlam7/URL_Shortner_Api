@@ -1,0 +1,26 @@
+:root {
+    --main_Gray: hsl(257, 7%, 63%);
+    --main_Cyan: hsl(180, 66%, 49%);
+    --light_Cyan: hsl(180, 48%, 67%);
+    --light_Gray: hsl(225, 33%, 95%);
+    --dark_violet: hsl(258, 27%, 26%);
+    --Gray: hsl(0, 0%, 75%);
+    --dark_blue: hsl(255, 10.70%, 22.00%);
+    --very_dark_violet: hsl(260, 8%, 14%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--light_Gray);
+}
+

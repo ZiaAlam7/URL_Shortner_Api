@@ -1,0 +1,44 @@
+.short_links {
+background-color: white;
+font-weight: 500;
+font-size: 1.1rem;
+    width: 79%;
+    margin: 1.2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    border-radius: 5px;
+}
+
+.short_links > p {
+    width: 55%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.link_copy {
+    display: flex;
+    align-items: center;
+}
+
+
+.link_copy > p{
+    color: var(--main_Cyan);
+    margin-right: 1.5rem;
+}
+
+.link_copy > button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 7rem;
+    border: 0px;
+    border-radius: 0.3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.link_copy > button:hover, button:active{
+    background-color: var(--light_Cyan);
+}

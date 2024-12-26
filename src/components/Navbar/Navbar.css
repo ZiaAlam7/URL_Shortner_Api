@@ -1,0 +1,69 @@
+.navbar{
+    width: 81vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    padding: 2rem;
+    display: flex;
+    background-color: white;
+}
+
+.menu > img{
+    display: none;
+}
+
+.nav_tabs{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.nav img:first-child{
+    margin-right: 2rem;   
+}
+
+.nav_tabs a{
+    /* Color variable is in index.css */
+    color: var(--main_Gray);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav_tabs a:hover, a:active{
+    color: black;
+}
+
+.btns{
+    display: flex;
+}
+
+.btns button{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 0.9rem;
+        padding: 0.6rem;
+        width: 6.5rem;
+        border: 0px;
+        border-radius: 5rem;
+        color: white;
+        background-color: var(--main_Cyan);
+        cursor: pointer;
+}
+
+.btns button:hover, button:active{
+    background-color: var(--light_Cyan);
+}
+
+.btns button:first-child{
+    background-color: transparent;
+    color: var(--main_Gray);
+}
+
+.btns button:first-child:hover, button:first-child:active{
+    color: black;
+}

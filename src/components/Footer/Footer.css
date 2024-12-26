@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--very_dark_violet);
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1.7fr 1fr 1fr 1fr 1fr;
+    padding: 4rem 12rem;
+    color: white;
+
+}
+
+.footer_logo{
+    background: url('../../../images/logo.svg');
+    background-repeat: no-repeat;
+    filter: invert(1) brightness(2);
+    width: 121px;
+    height: 33px;
+}
+
+.links p {
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.links li{
+    list-style: none;
+    margin-bottom: 0.7rem;    
+}
+
+.links a{
+    text-decoration: none;
+    color: var(--main_Gray);
+    font-weight: 500;
+}
+
+
+.footer_social img{
+    margin: 0rem 0.7rem;
+}
+

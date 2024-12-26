@@ -1,0 +1,106 @@
+.hero_bottom {
+    width: 100vw;
+    background-color: var(--light_Gray);
+    margin-top: 6rem;
+}
+
+.hero_bottom_txt {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 6rem;
+}
+
+.hero_bottom_txt>h2 {
+    font-size: 2.8rem;
+    letter-spacing: -2px;
+    color: var(--dark_blue);
+}
+
+.hero_bottom_txt>p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--main_Gray);
+}
+
+.hero_bottom_content {
+    position: relative;
+    width: 79%;
+    margin: auto;
+    margin-bottom: 6rem;
+    height: auto;
+}
+
+.cards {
+    justify-content: space-between;
+    height: 23.3rem;
+}
+
+.card {
+    background-color: white;
+    width: 31.5%;
+    /* height: 17.3rem; */
+    /* height: 75%; */
+    border-radius: 0.3rem;
+    padding: 1.9rem;
+
+    z-index: 999;
+    position: absolute;
+}
+
+.card_2 {
+    top: 3rem;
+    left: 34.3%;
+}
+
+.card_3 {
+    top: 6rem;
+    right: 0;
+}
+
+.blue_line {
+    position: absolute;
+    top: 43%;
+    background-color: var(--main_Cyan);
+    width: 100%;
+    height: 0.6rem;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    color: var(--dark_blue);
+}
+
+.card p {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--Gray);
+    margin-bottom: 1rem;
+}
+
+.card>.img {
+    background-color: var(--dark_violet);
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 3rem;
+    position: absolute;
+    bottom: 82%;
+}
+
+
+.card>.img_1 {
+    background-image: url('../../../images/icon-brand-recognition.svg');
+}
+
+.card>.img_2 {
+    background-image: url('../../../images/icon-detailed-records.svg');
+}
+
+.card>.img_3 {
+    background-image: url('../../../images/icon-fully-customizable.svg');
+}

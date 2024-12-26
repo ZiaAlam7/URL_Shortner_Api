@@ -1,0 +1,36 @@
+@media (max-width: 1000px) {
+
+.short_links {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    white-space: nowrap;  
+    overflow: hidden;    
+    text-overflow:ellipsis;
+    align-items: start;
+    width: 340px;
+    
+
+}
+
+.link_copy{
+    flex-direction: column;
+    padding: 1.2rem;
+}
+
+.short_links > p {
+    padding: 1.2rem;
+    border-bottom: 1px solid var(--Gray);
+    width: 100%;
+    overflow: hidden;    
+    text-overflow:ellipsis;
+
+}
+
+.link_copy > button{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+}
