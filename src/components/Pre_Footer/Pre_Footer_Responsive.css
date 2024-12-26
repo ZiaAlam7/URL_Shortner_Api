@@ -1,7 +1,7 @@
 @media (max-width: 1000px) {
     .pre_footer{
         background-image: url(../../../images/bg-boost-mobile.svg);
-        background-size: 110%;
+        background-size: cover;
     }
 
     .pre_footer > h2{

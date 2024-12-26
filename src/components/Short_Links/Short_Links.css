@@ -1,34 +1,40 @@
 .short_links {
-background-color: white;
-font-weight: 500;
-font-size: 1.1rem;
+    width: 100%;
+    
+}
+
+.short_link {
+    background-color: white;
+    font-size: 1.1rem;
     width: 79%;
     margin: 1.2rem auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 1.2rem;
     border-radius: 5px;
+    font-weight: 500;
 }
 
-.short_links > p {
+.short_link>p {
     width: 55%;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;  
+    white-space: nowrap;
 }
+
 .link_copy {
     display: flex;
     align-items: center;
 }
 
 
-.link_copy > p{
+.link_copy>p {
     color: var(--main_Cyan);
     margin-right: 1.5rem;
 }
 
-.link_copy > button{
+.link_copy>button {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -40,6 +46,7 @@ font-size: 1.1rem;
     cursor: pointer;
 }
 
-.link_copy > button:hover, button:active{
+.link_copy>button:hover,
+button:active {
     background-color: var(--light_Cyan);
 }

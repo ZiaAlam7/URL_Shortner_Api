@@ -6,6 +6,7 @@
  padding: 1.3rem;
  width:88%;
  background-image: url('../../../images/bg-shorten-mobile.svg');
+ background-size: cover;
  background-size: 19rem;
  background-position: 5rem -2.5rem;
 }

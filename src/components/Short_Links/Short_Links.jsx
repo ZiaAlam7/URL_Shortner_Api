@@ -38,6 +38,7 @@ const Short_Links = ({ item }) => {
 
     return (
         <div className="short_links">
+        <div className="short_link">
 
             <p>{longUrl}</p>
 
@@ -46,6 +47,7 @@ const Short_Links = ({ item }) => {
                 <p>{shortUrl}</p>
                 <button onClick={handleClick} style={{ 'backgroundColor': btnColor}}>{btn}</button>
             </div>
+        </div>
         </div>
     )
 }

@@ -34,6 +34,7 @@ const Hero_Bottom = () => {
           </div>
 
           <div className="card card_3">
+            
           <div className="img img_3"></div>
             <h3>Fully Customizable</h3>
             <p>

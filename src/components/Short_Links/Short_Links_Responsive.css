@@ -1,6 +1,6 @@
 @media (max-width: 1000px) {
 
-.short_links {
+.short_link {
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -8,7 +8,7 @@
     overflow: hidden;    
     text-overflow:ellipsis;
     align-items: start;
-    width: 340px;
+    width: 88%;
     
 
 }
@@ -16,9 +16,18 @@
 .link_copy{
     flex-direction: column;
     padding: 1.2rem;
+    align-items: center;
+    width: 100%;
 }
 
-.short_links > p {
+.link_copy> p {
+width: 100%;
+padding-left: 1rem;
+overflow: hidden;    
+text-overflow:ellipsis;
+}
+
+.short_link > p {
     padding: 1.2rem;
     border-bottom: 1px solid var(--Gray);
     width: 100%;
