@@ -15,6 +15,7 @@ font-size: 1.1rem;
     width: 55%;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;  
 }
 .link_copy {
     display: flex;
