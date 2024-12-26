@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/ZiaAlam7/URL_Shortner_Api)
-- [Live Site URL](https://url-shortner-aqdaojnvf-zia-alams-projects.vercel.app/)
+- [Live Site URL](https://url-shortner-api-navy.vercel.app/)
 
 ## My process
 
